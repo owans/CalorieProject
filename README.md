@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was given to me by the levelUp Academy to replicate as a way of memorizing the codebase and restructure the front-end of the calorie app.
 
 1. At the end of the project, i should be able to code this app from scratch with little reference to the codebase.
@@ -7,7 +6,3 @@ This project was given to me by the levelUp Academy to replicate as a way of mem
 
 3. Better my front-end skills
 4. Scale the bootcamp live coding test
-=======
-# CalorieProject
-A repository for levelUp bootcamp calorie project
->>>>>>> b895d8860e0a8c96778c2fa4ba30e1952f53ef1c
