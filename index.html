@@ -41,11 +41,11 @@
                         </div>
 
                         <br>
-                        <div class="user-button">
-                        <button class="add-btn btn green darker-3"><i class="fa fa-plus"></i>Add Meal</button>
-                        <button class="update-btn btn blue"><i class="fa fa-pencil-square-o"></i>Update Meal</button>
-                        <button class="delete-btn btn red"><i class="fa fa-remove"></i>Delete</button>
-                        <button class="back-btn btn pull-right"><i class="fa fa-chevron-circle-left"></i>Back</button>
+                        <div>
+                        <button type="button" class="add-btn btn green darker-3 regular" onclick="show_change(); return false;"><i class="fa fa-plus"></i>Add Meal</button>
+                        <button type="submit" class="update-btn btn blue positive" id="update" style="display:none;"><i class="fa fa-pencil-square-o"></i>Update Meal</button>
+                        <button class="delete-btn btn red negative"  id="delete" style="display: none;"><i class="fa fa-remove"></i>Delete</button>
+                        <button class="back-btn btn pull-right" id="back" style="display:none;"><i class="fa fa-chevron-circle-left"></i>Back</button>
                         </div>
                     </div>
                 </form>
@@ -61,6 +61,6 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="../levelUpBCP/assets/js/index.js"></script>
+    <script type="text/javascript " src="../levelUpBCP/assets/js/index.js"></script>
 </body>
 </html>
